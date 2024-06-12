@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
 
-    <Placemark>
+    <Placemark id="1">
       <Style>
         <LineStyle>
           <color>ff0000ff</color>
@@ -21,7 +21,7 @@
       <ExtendedData>
         <SchemaData schemaUrl="#default">
           <SimpleData name="Nome">Área de Interesse</SimpleData>
-          <SimpleData name="Descrição">Este é um exemplo de descrição.</SimpleData>
+          <SimpleData name="Descricao">Este é um exemplo de descrição.</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
