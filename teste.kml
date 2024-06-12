@@ -50,6 +50,27 @@
           </LinearRing>
         </outerBoundaryIs>
       </Polygon>
+      <Balloon>
+    <Info>
+      <![CDATA[
+        <h1>[Nome#]</h1>
+        <p>[Descrição#]</p>
+        <p><b>Outras Informações:</b></p>
+        <ul>
+          <li>[Campo1#]</li>
+          <li>[Campo2#]</li>
+          <li>[...</li>
+        </ul>
+      ]]>
+    </Info>
+  </Balloon>
+
+
+
+
+
+
+
     </Placemark>
   </Document>
 </kml>
