@@ -9,10 +9,16 @@
         <PolyStyle>
           <fill>0</fill>
         </PolyStyle>
+        <LabelStyle>
+          <scale>0.75</scale>
+          <color>ff000000</color>
+          <text>[#Descricao#]</text>
+        </LabelStyle>
       </Style>
       <ExtendedData>
         <SchemaData schemaUrl="#default">
           <SimpleData name="Nome">Área de Interesse</SimpleData>
+          <SimpleData name="Descrição">Este é um exemplo de descrição.</SimpleData>
         </SchemaData>
       </ExtendedData>
       <Polygon>
