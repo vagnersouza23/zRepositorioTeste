@@ -1,42 +1,35 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document id="root_doc">
-<Schema name="ze_2023_12" id="ze_2023_12">
-	<SimpleField name="OBJECTID" type="int"></SimpleField>
-	<SimpleField name="NR_ZONA" type="int"></SimpleField>
-	<SimpleField name="Shape_Leng" type="float"></SimpleField>
-	<SimpleField name="Shape_Area" type="float"></SimpleField>
-</Schema>
-<Folder><name>ze_2023_12</name>
-  <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ze_2023_12">
-		<SimpleData name="OBJECTID">1</SimpleData>
-		<SimpleData name="NR_ZONA">1</SimpleData>
-		<SimpleData name="Shape_Leng">0.150976193055</SimpleData>
-		<SimpleData name="Shape_Area">0.000689171575957</SimpleData>
-	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.6259439979171,-23.5523818486433 -46.6220720298003,-23.5563620402759 -46.6322165776329,-23.5608563023764 -46.6402806931994,-23.5736360085949 -46.6490308026294,-23.5677183103517 -46.6570549433309,-23.5608694423708 -46.6511674101478,-23.5559066442761 -46.6536328152022,-23.5498835221068 -46.6648489691046,-23.5566000287683 -46.6653317737423,-23.5563712853065 -46.6610323983265,-23.5523679478225 -46.6566598243913,-23.5436027774462 -46.6537463941807,-23.5446830367927 -46.6461576503552,-23.539007384783 -46.644367512051,-23.5400113879152 -46.6364466548891,-23.5417468375465 -46.6289443790798,-23.5462634855713 -46.6259439979171,-23.5523818486433</coordinates></LinearRing></outerBoundaryIs></Polygon>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ze_2023_12">
-		<SimpleData name="OBJECTID">2</SimpleData>
-		<SimpleData name="NR_ZONA">2</SimpleData>
-		<SimpleData name="Shape_Leng">0.170103208382</SimpleData>
-		<SimpleData name="Shape_Area">0.001215167141430</SimpleData>
-	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.653268158099,-23.5350194391957 -46.6461576503552,-23.539007384783 -46.6537463941807,-23.5446830367927 -46.6566598243913,-23.5436027774462 -46.6610323983265,-23.5523679478225 -46.6653317737423,-23.5563712853065 -46.6796448627202,-23.549936974212 -46.689726984113,-23.5471927568402 -46.6972674145595,-23.5406909552233 -46.697520583608,-23.536058686759 -46.6891710241234,-23.5273818522906 -46.6830818035824,-23.5275405016927 -46.6793511378447,-23.5220010430137 -46.6790138597018,-23.5131839107088 -46.6540435760501,-23.5168002861043 -46.6591027212136,-23.5221477332312 -46.6609522111756,-23.5280250015525 -46.653268158099,-23.5350194391957</coordinates></LinearRing></outerBoundaryIs></Polygon>
-  </Placemark>
-  <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ze_2023_12">
-		<SimpleData name="OBJECTID">3</SimpleData>
-		<SimpleData name="NR_ZONA">3</SimpleData>
-		<SimpleData name="Shape_Leng">0.209162834959</SimpleData>
-		<SimpleData name="Shape_Area">0.001707734444230</SimpleData>
-	</SchemaData></ExtendedData>
-      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.6252942916981,-23.5192696832493 -46.6186530403055,-23.5186612532142 -46.6107912713001,-23.5232078756429 -46.6038610191707,-23.5228767461649 -46.5945581945051,-23.5295635796954 -46.5850314188648,-23.5284044767851 -46.580829544348,-23.5408561346029 -46.6149777494235,-23.5476488642037 -46.6115158496767,-23.5527497253195 -46.6259439979171,-23.5523818486433 -46.6289443790798,-23.5462634855713 -46.6364466548891,-23.5417468375465 -46.644367512051,-23.5400113879152 -46.653268158099,-23.5350194391957 -46.6609522111756,-23.5280250015525 -46.6591027212136,-23.5221477332312 -46.6540435760501,-23.5168002861043 -46.6252942916981,-23.5192696832493</coordinates></LinearRing></outerBoundaryIs></Polygon>
-  </Placemark>
-</Folder>
-</Document></kml>
+<Document>
+<Placemark>
+<name>Shape1</name>
+<MultiGeometry><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>-8,1.0,undefined</coordinates>
+</LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Shape2</name>
+<MultiGeometry><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>202312,202312,undefined</coordinates>
+</LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Shape3</name>
+<MultiGeometry><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>-46.6220720298003-23.5563620402759,-46.6259439979171-23.5523818486433,-46.6322165776329-23.5608563023764</coordinates>
+</LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Shape4</name>
+<MultiGeometry><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>-46.6461576503552-23.539007384783,-46.653268158099-23.5350194391957,-46.6537463941807-23.5446830367927</coordinates>
+</LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Shape5</name>
+<MultiGeometry><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>-46.6186530403055-23.5186612532142,-46.6252942916981-23.5192696832493,-46.6107912713001-23.5232078756429</coordinates>
+</LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

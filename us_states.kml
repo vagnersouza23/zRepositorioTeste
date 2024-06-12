@@ -94,8 +94,7 @@
       <MultiGeometry>
         <Point id="g866">
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>
--156.326917860547,20.2401578536914</coordinates>
+          <coordinates>-156.326917860547,20.2401578536914</coordinates>
         </Point>
         <MultiGeometry>
           <Polygon id="g867">
