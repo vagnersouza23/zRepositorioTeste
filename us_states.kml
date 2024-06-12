@@ -26,6 +26,7 @@
       </PolyStyle>
     </Style>
 
+
     <Placemark id="pm251">
       <name><![CDATA[Hawaii (1960)]]></name>
       <Snippet maxLines="0">empty</Snippet>
@@ -90,7 +91,7 @@
         </table>]]>
       </description>
       <TimeSpan>
-        <begin>1959</begin>
+        <begin>1960</begin>
       </TimeSpan>
       <styleUrl>#Style_5</styleUrl>
       <MultiGeometry>
