@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-
     <Placemark id="1">
       <Style>
         <LineStyle>
@@ -28,96 +27,18 @@
         <outerBoundaryIs>
           <LinearRing>
             <coordinates>
-              -46.6259439979171,-23.5523818486433
-              -46.6220720298003,-23.5563620402759
-              -46.6322165776329,-23.5608563023764
-              -46.6402806931994,-23.5736360085949
-              -46.6490308026294,-23.5677183103517
-              -46.6570549433309,-23.5608694423708
-              -46.6511674101478,-23.5559066442761
-              -46.6536328152022,-23.5498835221068
-              -46.6648489691046,-23.5566000287683
-              -46.6653317737423,-23.5563712853065
-              -46.6610323983265,-23.5523679478225
-              -46.6566598243913,-23.5436027774462
-              -46.6537463941807,-23.5446830367927
-              -46.6461576503552,-23.539007384783
-              -46.644367512051,-23.5400113879152
-              -46.6364466548891,-23.5417468375465
-              -46.6289443790798,-23.5462634855713
-              -46.6259439979171,-23.5523818486433
-            </coordinates>
+              </coordinates>
           </LinearRing>
         </outerBoundaryIs>
       </Polygon>
-            <description>
-        <![CDATA[<table cellpadding="1" cellspacing="1">
-        <tr>
-        <td>states.AREA:</td>
-        <td>    6380.614</td>
-        </tr>
-        <tr>
-        <td>states.STATE_NAME:</td>
-        <td>Hawaii</td>
-        </tr>
-        <tr>
-        <td>states.STATE_FIPS:</td>
-        <td>15</td>
-        </tr>
-        <tr>
-        <td>states.SUB_REGION:</td>
-        <td>Pacific</td>
-        </tr>
-        <tr>
-        <td>states.STATE_ABBR:</td>
-        <td>HI</td>
-        </tr>
-        <tr>
-        <td>states.POP2000:</td>
-        <td>     1211537</td>
-        </tr>
-        <tr>
-        <td>states.POP2001:</td>
-        <td>     1211960</td>
-        </tr>
-        <tr>
-        <td>states.POP00_SQMI:</td>
-        <td>         190</td>
-        </tr>
-        <tr>
-        <td>states.DEN_0_100:</td>
-        <td>          83</td>
-        </tr>
-        <tr>
-        <td>USStates.ID:</td>
-        <td>          50</td>
-        </tr>
-        <tr>
-        <td>USStates.State_Name:</td>
-        <td>Hawaii</td>
-        </tr>
-        <tr>
-        <td>USStates.Date_Entered:</td>
-        <td>Aug. 21 1959</td>
-        </tr>
-        <tr>
-        <td>USStates.Year_Entered:</td>
-        <td>1959</td>
-        </tr>
-        <tr>
-        <td>USStates.Year_Settled:</td>
-        <td>1820</td>
-        </tr>
-        </table>]]>
-      </description>
-
-
-
-
-
-
-
-
+      <Balloon>
+        <Info>
+          <![CDATA[
+            <h1>[Nome#]</h1>
+            <p>[Descricao#]</p>
+            ]]>
+        </Info>
+      </Balloon>
     </Placemark>
   </Document>
 </kml>
