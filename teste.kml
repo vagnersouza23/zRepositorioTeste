@@ -31,7 +31,7 @@
     <Placemark id="1">
       <name><![CDATA[Hawaii (1960)]]></name>
       <Snippet maxLines="0">empty</Snippet>
-      <description>
+      <baloon>
         <![CDATA[<table cellpadding="1" cellspacing="1">
         <tr>
         <td>states.AREA:</td>
@@ -90,7 +90,7 @@
         <td>1820</td>
         </tr>
         </table>]]>
-      </description>
+      </baloon>
 
       <Polygon>
         <outerBoundaryIs>
