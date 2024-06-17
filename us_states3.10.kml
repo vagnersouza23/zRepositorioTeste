@@ -100,26 +100,19 @@
         </Polygon>
       </MultiGeometry>
     </Placemark>
-    
 
-
-
-
-
-
-
-    <placemark><style>
-    <LineStyle>
-        <color>ff0000ff</color>
-    </LineStyle>
-    <PolyStyle>
-        <fill>0</fill>
-    </PolyStyle>
-</style><name>[CDATA[1ª Zona Eleitoral - Buscar nomes das ZEs]]</name>
-    <description>
-        [CDATA[<table cellpadding="1" cellspacing="1"
-            Arrumar tabela
-        ]]&gt;
+    <placemark>
+        <style>
+            <LineStyle>
+                <color>ff0000ff</color>
+            </LineStyle>
+            <PolyStyle>
+                <fill>0</fill>
+            </PolyStyle>
+        </style>
+        <name>[CDATA[1ª Zona Eleitoral - Buscar nomes das ZEs]]</name>
+        <description>
+            <![CDATA[<table cellpadding="1" cellspacing="1">Arrumar tabela]]&gt;
     </description><styleurl>#Style_5</styleurl>
 <extendeddata>
     <schemadata schemaurl="#ze_2023_12">
