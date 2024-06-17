@@ -1,7 +1,7 @@
 
 let placemarks = document.getElementsByTagName('placemark')
 let divKml     = document.querySelector('#kml')
-const container = document.createElement('div')
+let container = ''
 
 for(let i = 0; i < placemarks.length; i++){
 
@@ -10,6 +10,7 @@ for(let i = 0; i < placemarks.length; i++){
     let nrZe     = elemento.querySelector('SimpleData[name="NR_ZONA"]').innerHTML
     let coords   = elemento.querySelectorAll('coordinates')
     let coordsTratadas = ''
+    let placemarkTratado = ''
 
     for(let i = 0; i < coords.length; i++){
         let coord = coords[i].innerHTML
@@ -17,68 +18,45 @@ for(let i = 0; i < placemarks.length; i++){
     }
 
     const tagEstilo = elemento.getElementsByTagName('style')[0]
-    const placemark = document.createElement('placemark')
-
-    placemark.innerHTML = `
-        <name><![CDATA[${nrZe}ª Zona Eleitoral - ${'Buscar nomes das ZEs'}]]></name>
+    let placemark = ''
+    const tagName = `<name><![CDATA[${nrZe}ª Zona Eleitoral - ${'Buscar nomes das ZEs'}]]></name>`
+    const tagTable = `Arrumar tabela`
+    const tagDesc = `
         <description>
             <![CDATA[<table cellpadding="1" cellspacing="1">
-                <tr>
-                    <td>Informação:</td>
-                    <td>01</td>
-                </tr>
-                <tr>
-                    <td>Informação:</td>
-                    <td>02</td>
-                </tr>
-                <tr>
-                    <td>Informação:</td>
-                    <td>03</td>
-                </tr>
-                <tr>
-                    <td>Informação:</td>
-                    <td>04</td>
-                </tr>
-                <tr>
-                    <td>Informação:</td>
-                    <td>05</td>
-                </tr>
+                ${tagTable}
             </table>]]>
-        </description>
+        </description>`
 
-        <styleUrl>#Style_5</styleUrl>
+    const tagStyleUrl = `<styleUrl>#Style_5</styleUrl>`
+    const tagExtend = `
+    <ExtendedData>
+        <SchemaData schemaUrl="#ze_2023_12">
+            <SimpleData name="OBJECTID">${objectId}</SimpleData>
+            <SimpleData name="NR_ZONA">${nrZe}</SimpleData>
+        </SchemaData>
+    </ExtendedData>`
 
-        <ExtendedData>
-            <SchemaData schemaUrl="#ze_2023_12">
-                <SimpleData name="OBJECTID">${objectId}</SimpleData>
-                <SimpleData name="NR_ZONA">${nrZe}</SimpleData>
-            </SchemaData>
-        </ExtendedData>
+    const tagMultiGeo = `<MultiGeometry>
+        <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                ${coordsTratadas}
+            </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>`
 
-        <MultiGeometry>
-            <Polygon>
-            <outerBoundaryIs>
-                <LinearRing>
-                    ${coordsTratadas}
-                </LinearRing>
-            </outerBoundaryIs>
-            </Polygon>
-        </MultiGeometry>
-  
-    
-    
-    `
 
-    container.appendChild(placemark)
+    placemark = `<style>${tagEstilo.innerHTML}</style>` + tagName + tagDesc + tagStyleUrl + tagExtend + tagMultiGeo
 
-    const style = document.createElement('style')
-    style.innerHTML = tagEstilo.innerHTML
-    // placemark.appendChild(style)
-    placemark.insertBefore(style, placemark.firstChild)
+
+
+    container += `<placemark>${placemark}</placemark>`
 
 
 
 
 }
 
-divKml.appendChild(container)
+divKml.innerHTML = `<pre>${container}</pre>`
