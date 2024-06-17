@@ -56,8 +56,14 @@
       </description>
       <styleUrl>#Style_5</styleUrl>
 
-
-
+      <ExtendedData>
+        <SchemaData schemaUrl="#ze_2023_12">
+          <SimpleData name="OBJECTID">1</SimpleData>
+          <SimpleData name="NR_ZONA">1</SimpleData>
+          <SimpleData name="Shape_Leng">0.150976193055</SimpleData>
+          <SimpleData name="Shape_Area">0.000689171575957</SimpleData>
+        </SchemaData>
+      </ExtendedData>
       
       <MultiGeometry>
         <Polygon>
