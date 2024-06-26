@@ -32,51 +32,85 @@
           <outline>1</outline>
         </PolyStyle>
       </Style>
-    
-    
-      <Placemark>
-        <name><![CDATA[1ª Zona Eleitoral]]></name>
-        <description>
-          <![CDATA[<table cellpadding="1" cellspacing="1">
-            <tr>
-              <td>Informação:</td>
-              <td>01</td>
-            </tr>
-            <tr>
-              <td>Informação:</td>
-              <td>02</td>
-            </tr>
-            <tr>
-              <td>Informação:</td>
-              <td>03</td>
-            </tr>
-            <tr>
-              <td>Informação:</td>
-              <td>04</td>
-            </tr>
-            <tr>
-              <td>Informação:</td>
-              <td>05</td>
-            </tr>
-          </table>]]>
-        </description>
-        <styleUrl>#Style_5</styleUrl>
 
-        <ExtendedData>
-          <SchemaData schemaUrl="#ze_2023_12">
-            <SimpleData name="OBJECTID">1</SimpleData>
-            <SimpleData name="NR_ZONA">1</SimpleData>
-            <SimpleData name="Shape_Leng">0.150976193055</SimpleData>
-            <SimpleData name="Shape_Area">0.000689171575957</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        
-        <MultiGeometry>
-            <Polygon>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>
-                    -46.62594399791715 -23.552381848643336,
+      <Placemark id="pm253">
+	<name><![CDATA[Montana (1889)]]></name>
+	<Snippet maxLines="0">empty</Snippet>
+	<description><![CDATA[<table cellpadding="1" cellspacing="1">
+		<tr>
+		<td>states.AREA:</td>
+		<td>  147244.653</td>
+		</tr>
+		<tr>
+		<td>states.STATE_NAME:</td>
+		<td>Montana</td>
+		</tr>
+		<tr>
+		<td>states.STATE_FIPS:</td>
+		<td>30</td>
+		</tr>
+		<tr>
+		<td>states.SUB_REGION:</td>
+		<td>Mtn</td>
+		</tr>
+		<tr>
+		<td>states.STATE_ABBR:</td>
+		<td>MT</td>
+		</tr>
+		<tr>
+		<td>states.POP2000:</td>
+		<td>      902195</td>
+		</tr>
+		<tr>
+		<td>states.POP2001:</td>
+		<td>      908325</td>
+		</tr>
+		<tr>
+		<td>states.POP00_SQMI:</td>
+		<td>           6</td>
+		</tr>
+		<tr>
+		<td>states.DEN_0_100:</td>
+		<td>         100</td>
+		</tr>
+		<tr>
+		<td>USStates.ID:</td>
+		<td>          41</td>
+		</tr>
+		<tr>
+		<td>USStates.State_Name:</td>
+		<td>Montana</td>
+		</tr>
+		<tr>
+		<td>USStates.Date_Entered:</td>
+		<td>Nov. 8 1889</td>
+		</tr>
+		<tr>
+		<td>USStates.Year_Entered:</td>
+		<td>1889</td>
+		</tr>
+		<tr>
+		<td>USStates.Year_Settled:</td>
+		<td>1809</td>
+		</tr>
+		</table>]]></description>
+			  <TimeSpan>
+				<begin>1889</begin>
+			  </TimeSpan>
+			  <styleUrl>#Style_5</styleUrl>
+      <MultiGeometry>
+        <Point id="g878">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+-109.652533686894,47.0322664572934 
+                </coordinates>
+        </Point>
+        <Polygon id="g879">
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+			                      -46.62594399791715 -23.552381848643336,
                     -46.62894437907977 -23.54626348557133,
                     -46.63644665488914 -23.541746837546498,
                     -46.64436751205102 -23.540011387915172,
@@ -94,13 +128,22 @@
                     -46.6322165776329 -23.560856302376408,
                     -46.62207202980028 -23.55636204027587,
                     -46.62594399791715 -23.552381848643336
-                  </coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>                          
-        </MultiGeometry>
-      </Placemark>
 
+			  
+			  
+			  
+			  
+			  
+			  
+			  </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+
+    
+    
 
     </Document>
   </kml>
