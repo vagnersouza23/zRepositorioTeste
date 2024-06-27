@@ -247,9 +247,9 @@
       <styleUrl>#Style_5</styleUrl>
       <MultiGeometry>
           <Polygon>
-                          <outerBoundaryIs>
-                            <LinearRing>
-                              <coordinates>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
 									-46.60894862338023,-23.568169021782865
 									-46.614707826005315,-23.55900580517374
 									-46.62207202980028,-23.55636204027587
@@ -268,11 +268,11 @@
 									-46.607873834609734,-23.57192151226792
 									-46.60812367886467,-23.57049383582182
 									-46.60873264219765,-23.56856025655054
-									-46.60894862338023,-23.568169021782865</coordinates>
-                            </LinearRing>
-                          </outerBoundaryIs>
-                        </Polygon>
-                        
+									-46.60894862338023,-23.568169021782865
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>                   
       </MultiGeometry>
     </Placemark>
 
