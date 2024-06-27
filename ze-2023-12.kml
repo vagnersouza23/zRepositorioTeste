@@ -235,11 +235,7 @@
       </MultiGeometry>
     </Placemark>
 
-
-
-
-
-<Placemark>
+    <Placemark>
       <name><![CDATA[6ª Zona Eleitoral]]></name>
       <description>
         <![CDATA[<table cellpadding="1" cellspacing="1">
@@ -280,6 +276,8 @@
                         
       </MultiGeometry>
     </Placemark>
+
+    
 <Placemark>
       <name><![CDATA[7ª Zona Eleitoral]]></name>
       <description>
