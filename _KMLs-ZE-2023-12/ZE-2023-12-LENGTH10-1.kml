@@ -7,11 +7,11 @@
 
     <Style id="Style_1">
       <LineStyle>
-        <color>99FFB3B3</color>
+        <color>99BABBFF</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>99FFB3B3</color>
+        <color>99BABBFF</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -20,18 +20,18 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>99FFB3B3</color>
+        <color>99BABBFF</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
 
     <Style id="Style_2">
       <LineStyle>
-        <color>99FF6666</color>
+        <color>997B7AFF</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>99FF6666</color>
+        <color>997B7AFF</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -40,18 +40,18 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>99FF6666</color>
+        <color>997B7AFF</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
 
     <Style id="Style_3">
       <LineStyle>
-        <color>99FF0000</color>
+        <color>995353FF</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>99FF0000</color>
+        <color>995353FF</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -60,18 +60,18 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>99FF0000</color>
+        <color>995353FF</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
 
     <Style id="Style_4">
       <LineStyle>
-        <color>99CC0000</color>
+        <color>990000FF</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>99CC0000</color>
+        <color>990000FF</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -80,18 +80,18 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>99CC0000</color>
+        <color>990000FF</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
 
     <Style id="Style_5">
       <LineStyle>
-        <color>99800000</color>
+        <color>990000A6</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>99800000</color>
+        <color>990000A6</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -100,7 +100,7 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>99800000</color>
+        <color>990000A6</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
