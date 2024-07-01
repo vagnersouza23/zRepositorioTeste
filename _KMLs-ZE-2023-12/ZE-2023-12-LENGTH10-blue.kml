@@ -4,13 +4,18 @@
   <Document>
     <name>Zonas Eleitorais do TRE/SP</name>
     <open>1</open>
-    <Style id="Style_5">
+
+
+
+
+
+    <Style id="Style_1">
       <LineStyle>
-        <color>990000ff</color>
+        <color>99FFB3B3</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>997f7fff</color>
+        <color>99FFB3B3</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -19,10 +24,98 @@
         <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
       </IconStyle>
       <LabelStyle>
-        <color>9900ffff</color>
+        <color>99FFB3B3</color>
         <scale>1</scale>
       </LabelStyle>
     </Style>
+
+    <Style id="Style_2">
+      <LineStyle>
+        <color>99FF6666</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99FF6666</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <scale>0.4</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>99FF6666</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="Style_3">
+      <LineStyle>
+        <color>99FF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99FF0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <scale>0.4</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>99FF0000</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="Style_4">
+      <LineStyle>
+        <color>99CC0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99CC0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <scale>0.4</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>99CC0000</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="Style_5">
+      <LineStyle>
+        <color>99800000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>99800000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <scale>0.4</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>99800000</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+
+
+
+
+
+
+
+
     
 <Placemark id="1">
   <name>1ª Zona Eleitoral</name>
